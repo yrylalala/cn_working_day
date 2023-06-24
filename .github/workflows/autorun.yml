@@ -24,12 +24,13 @@ jobs:
           mkdir -p public
           mv cn.json public/
       - name: Deploy github pages
+        # https://github.com/marketplace/actions/github-pages-action
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           keep_files: true
-      - name: Purge CDN cache
-        shell: bash
-        run: |
-          curl https://purge.jsdelivr.net/gh/RyoLee/cn_working_day@gh-pages/cn.json
+#      - name: Purge CDN cache
+#        shell: bash
+#        run: |
+#          curl https://purge.jsdelivr.net/gh/RyoLee/cn_working_day@gh-pages/cn.json
