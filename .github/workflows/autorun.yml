@@ -16,7 +16,7 @@ jobs:
       - name: Run codes
         shell: bash
         run: |
-          pip install workalendar
+          pip install -r requirements.txt
           python cn.py
       - name: Pack
         run: |
