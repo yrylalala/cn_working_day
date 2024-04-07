@@ -1,0 +1,2 @@
+calendra~=7.9.0
+workalendar~=17.0.0
