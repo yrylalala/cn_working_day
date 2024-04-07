@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-from workalendar.asia import China
+from calendra.asia import China
 from datetime import timedelta, date
 import json
 import logging
