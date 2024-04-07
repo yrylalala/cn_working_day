@@ -6,7 +6,7 @@ from datetime import timedelta, date
 import json
 import logging
 
-from workalendar.exceptions import CalendarError
+from calendra.exceptions import CalendarError
 
 # 在这里设置记录的是什么等级以上的日志
 logging.basicConfig(filename='run.log', format='%(asctime)s - %(name)s - %(levelname)s -%(module)s: %(message)s',
