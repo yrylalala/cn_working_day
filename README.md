@@ -1,5 +1,6 @@
 # cn_working_day
-基于[workalendar](https://github.com/workalendar/workalendar) 生成近30天(-2~+27)工作日信息
+基于[Calendra](https://github.com/jaraco/calendra) 生成近30天(-2~+27)工作日信息
+（原使用[workalendar](https://github.com/workalendar/workalendar), 由于跨年之后中国假期信息更新较慢，因此更新使用Calendra）
 
 使用Github action自动更新
 
