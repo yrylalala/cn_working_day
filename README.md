@@ -9,3 +9,5 @@
 详细见博客[说明文章](https://blog.9-ch.com/post/homelab-cn-working-clock)
 
 fork 自仓库 [RyoLee/cn_working_day](https://github.com/RyoLee/cn_working_day)
+
+**注意: 由于假期每年不同，需要每年更新 [Calendra](https://github.com/jaraco/calendra) 的版本**

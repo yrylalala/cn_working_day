@@ -16,12 +16,12 @@ if __name__ == "__main__":
     cal = China()
     cur = date.today() - timedelta(days=3)
     res = {}
-    for i in range(30):
+    for i in range(14):
         cur += timedelta(days=1)
         try:
             res[str(cur)] = cal.is_working_day(cur)
         except CalendarError:
-            logging.exception("CalendarError")
+            logging.exception("CalendarError", exc_info=True)
             break
     with open('cn.json', 'w') as json_file:
         json.dump(res, json_file, indent=4, sort_keys=True)
