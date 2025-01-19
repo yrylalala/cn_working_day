@@ -16,7 +16,7 @@ if __name__ == "__main__":
     cal = China()
     cur = date.today() - timedelta(days=3)
     res = {}
-    for i in range(14):
+    for i in range(16):
         cur += timedelta(days=1)
         try:
             res[str(cur)] = cal.is_working_day(cur)

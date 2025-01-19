@@ -1,4 +1,4 @@
-name: Deploy
+name: 近14天是否假期
 
 on:
   schedule:
