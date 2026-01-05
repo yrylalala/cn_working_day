@@ -1,1 +1,1 @@
-calendra~=7.11.0
+chinesecalendar>=1.10.0
